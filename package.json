@@ -1,9 +1,10 @@
 {
-  "name": "noduino",
+  "name": "node-arduino",
   "version": "0.0.1",
-  "description": "Arduino and Node.js",
+  "description": "Arduino with Node.js",
   "main": "serial.js",
   "dependencies": {
+    "express": "^4.16.2",
     "serialport": "^6.0.4"
   },
   "devDependencies": {},
