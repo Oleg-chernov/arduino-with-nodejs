@@ -1,10 +1,9 @@
 void setup() {
-	pinMode(0, INPUT);
-	digitalWrite(0, HIGH);
+	pinMode(0, INPUT); // устанавливаем 0 аналоговый пин как вход;
 	Serial.begin(9600);
 }
 
 void loop() {
-	delay(1000);
-	Serial.println(analogRead(0));
+	Serial.println(analogRead(0)); // выводим значение
+    delay(500); //делаем задержку в 500 миллисекунд
 }

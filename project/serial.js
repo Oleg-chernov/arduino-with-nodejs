@@ -9,11 +9,11 @@ app.use(express.static(__dirname + "/public"));
 
 serialport.on('data', function (data) {
 	dataArduino = data.toString('utf8'); // получаем данные, преобразуем её к нормальному виду и записываем в переменную
+
 });
 
 app.post("/data", function(request, response){
 	response.send(dataArduino); //при запросе отправляем значение dataArduino
-
 });
 
 serialport.on('open', function () {
