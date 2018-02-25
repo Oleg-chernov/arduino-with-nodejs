@@ -1,0 +1,15 @@
+{
+  "name": "noduino",
+  "version": "0.0.1",
+  "description": "Arduino and Node.js",
+  "main": "serial.js",
+  "dependencies": {
+    "serialport": "^6.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chernov Oleg",
+  "license": "MIT"
+}
