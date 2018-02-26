@@ -12,9 +12,7 @@ setInterval(function(){
 	
 			new Chartist.Line('.ct-chart', {
 			  labels: dataArduino,
-			  series: [
-					dataArduino
-			  ]
+			  series: [dataArduino]
 			},  {
 			  fullWidth: false,
 			  chartPadding: {
